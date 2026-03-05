@@ -25,8 +25,6 @@ an electrical network parameter monitoring device based on an annular current se
 4. Подключение к серверу NTP и синхронизация измерений с реальным временем
 5. Подключение модуля SD карты и запись данных с разделением по директивам (год, месяц, файл_текущего_дня.csv)
 <img width="1206" height="1029" alt="Screenshot directory" src="https://github.com/user-attachments/assets/34bc65c0-6842-44e8-b3a6-366a7bee3848" />
-![IMG_20260305_082644](https://github.com/user-attachments/assets/f90749a8-7cbe-447a-a371-92c194315f1a)
-![IMG_20260305_082935](https://github.com/user-attachments/assets/182b6eca-cd18-408a-8145-7cc1f2688a42)
 
 7. Создание web сервера на ESP8266 (с возможностью далбнейшего масштабиирования и вывода данных на отдельном сервере)
 Интерфейса находится в разработке, на данный момент корректно отображаются только действительные показания тока и мощности
