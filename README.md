@@ -16,15 +16,16 @@ an electrical network parameter monitoring device based on an annular current se
 
 1. Сборка схемы
 <img width="1264" height="701" alt="image" src="https://github.com/user-attachments/assets/f60d09ef-58b6-4344-80f7-21be208fc20d" />
-![IMG_20260305_082644](https://github.com/user-attachments/assets/75919f00-65af-44fb-b729-3abe8819a28d)
-![IMG_20260305_082935](https://github.com/user-attachments/assets/8a049a10-dd32-4bdf-86ca-00f8af5c8f02)
+
 
 3. Написание кода измерений
 4. Подключение к серверу NTP и синхронизация измерений с реальным временем
 5. Подключение модуля SD карты и запись данных с разделением по директивам (год, месяц, файл_текущего_дня.csv)
 <img width="1206" height="1029" alt="Screenshot directory" src="https://github.com/user-attachments/assets/34bc65c0-6842-44e8-b3a6-366a7bee3848" />
+![IMG_20260305_082644](https://github.com/user-attachments/assets/f90749a8-7cbe-447a-a371-92c194315f1a)
+![IMG_20260305_082935](https://github.com/user-attachments/assets/182b6eca-cd18-408a-8145-7cc1f2688a42)
 
-6. Создание web сервера на ESP8266 (с возможностью далбнейшего масштабиирования и вывода данных на отдельном сервере)
+7. Создание web сервера на ESP8266 (с возможностью далбнейшего масштабиирования и вывода данных на отдельном сервере)
 Интерфейса находится в разработке, на данный момент корректно отображаются только действительные показания тока и мощности
 <img width="1207" height="898" alt="image" src="https://github.com/user-attachments/assets/2eb83077-355e-41f5-9473-5c92657f29b6" />
 
