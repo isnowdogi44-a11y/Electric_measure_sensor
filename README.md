@@ -1,4 +1,4 @@
-![IMG_20260305_082935](https://github.com/user-attachments/assets/15dd32fd-e805-444e-8d1d-764df3a6165b)# Electric_measure_sensor
+# Electric_measure_sensor
 an electrical network parameter monitoring device based on an annular current sensor
 Система мониторинга параметров электрической сети с помощью кольцеового трансформатора тока ACX-1050 на основе микроконтроллера ES8266 NodeMCU v3.
 
@@ -16,8 +16,9 @@ an electrical network parameter monitoring device based on an annular current se
 
 1. Сборка схемы
 <img width="1264" height="701" alt="image" src="https://github.com/user-attachments/assets/f60d09ef-58b6-4344-80f7-21be208fc20d" />
-![IMG_20260305_082644](https://github.com/user-attachments/assets/0b2a6388-ca1f-4af1-bcae-8c3b34dd844a)
-![IMG_20260305_082935](https://github.com/user-attachments/assets/52b3ebcf-e774-4f59-bb85-868af8f72133)
+<img width="1317" height="774" alt="image" src="https://github.com/user-attachments/assets/e54af1aa-2439-47ac-b378-a7425c444307" />
+
+
 
 
 3. Написание кода измерений
