@@ -2,14 +2,12 @@
 #define MICROSD_H
 
 #include <Arduino.h>
-#include <SD.h>
-#include <NTPClient.h>
+#include <SdFat.h>
 
-extern NTPClient timeClient;  // ОБЯЗАТЕЛЬНО!
-
-void getFormattedDate(char* buffer, size_t bufferSize);
-void getFormattedTime(char* buffer, size_t bufferSize);
-void logData(const char* date, int hour, float RMS_current, 
-             float I_min, char* time_min, float I_max, char* time_max, float P_count);
+bool sd_init(uint8_t CS_PIN);
+bool sd_ready(uint8_t CS_PIN);
+void sd_logData(const char* date, int hour, float RMS_current,
+             float I_min, const char* time_min, float I_max, const char* time_max,
+             float P_average, float P_kWh);
 
 #endif
