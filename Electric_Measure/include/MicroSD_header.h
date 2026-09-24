@@ -4,6 +4,8 @@
 #include <Arduino.h>
 #include <SdFat.h>
 
+#define CS_PIN D2                     // Контакт управления шиной SPI
+
 bool sd_init(uint8_t CS_PIN);
 bool sd_ready(uint8_t CS_PIN);
 void sd_logData(const char* date, int hour, float RMS_current,
